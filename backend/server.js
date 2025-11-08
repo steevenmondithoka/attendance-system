@@ -30,7 +30,7 @@ const server = http.createServer(app); // Create an HTTP server from your Expres
 // Attach Socket.IO to the server with CORS configuration
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173", // Your React client's URL
+    origin: "https://attendance-system-five-lac.vercel.app", // Your React client's URL
     methods: ["GET", "POST"],
   },
 });
