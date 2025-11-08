@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 
 // 1. Create the single, persistent socket instance
 // Make sure this URL points to your backend server.
-const socket = io('http://localhost:5000');
+const socket = io('https://attendance-system-jotz.onrender.com');
 
 // 2. Create the React Context
 const SocketContext = createContext();
