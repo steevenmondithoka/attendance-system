@@ -30,6 +30,7 @@ import { ScrollArea } from './components/ui/scroll-area';
 // Tooltip is ESSENTIAL for the icon-only view
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './components/ui/tooltip'; 
 import { cn } from '@/lib/utils';
+import Register from './pages/Register';
 // -------------------------------------------------------------------------------
 
 
@@ -176,6 +177,7 @@ function App() {
                     {/* Public Routes */}
                     <Route path="/" element={<Home />} /> 
                     <Route path="/login" element={<Login />} />
+                    <Route path="/register" element={<Register/>} />
                     <Route path="/forgot-password" element={<ForgotPassword />} /> 
                     <Route path="/reset-password/:token" element={<ResetPassword />} /> 
 
