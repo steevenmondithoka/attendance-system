@@ -17,7 +17,7 @@ import { Loader2 } from 'lucide-react';
 // ---
 
 // --- CONFIGURATION ---
-const API_BASE_URL = 'http://localhost:5000'; // Match your server's port
+const API_BASE_URL = 'https://attendance-system-jotz.onrender.com'; // Match your server's port
 
 // --- Reusable Spinner Component ---
 const Spinner = ({ text = "Loading dashboard data..." }) => (
