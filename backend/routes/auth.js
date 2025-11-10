@@ -58,7 +58,7 @@ router.post('/forgot-password', async (req, res) => {
         await user.save();
 
         // 3. Create the reset URL (IMPORTANT: Replace 'http://localhost:3000' with your actual frontend domain)
-        const resetURL = `https://attendance-system-jotz.onrender.com/reset-password/${resetToken}`; 
+        const resetURL = `https://attendance-system-five-lac.vercel.app/reset-password/${resetToken}`; 
 
         // 4. Construct and send the email
         const mailOptions = {
