@@ -57,7 +57,7 @@ router.post('/forgot-password', async (req, res) => {
     await user.save();
 
     // 3️⃣ Frontend reset link (update if frontend URL changes)
-    const resetURL = `https://attendance-system-jotz.onrender.com/reset-password/${resetToken}`;
+    const resetURL = `https://attendance-system-five-lac.vercel.app/reset-password/${resetToken}`;
 
     // 4️⃣ Email content
     const mailOptions = {
