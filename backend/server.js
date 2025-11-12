@@ -99,6 +99,7 @@ app.use("/api/auth", require("./routes/auth"));
 app.use("/api/class", require("./routes/class"));
 app.use("/api/students", require("./routes/student"));
 app.use("/api/attendance", require("./routes/attendance"));
+app.use("/api/avatar", require("./routes/users"));
 
 
 // backend/server.js
