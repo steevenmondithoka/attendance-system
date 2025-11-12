@@ -31,6 +31,11 @@ const UserSchema = new mongoose.Schema({
         type: Date,
         default: Date.now,
     },
+       avatarUrl: {
+        type: String,
+        default: '/default/avatar.png', // A placeholder or default image path
+        select: false, // Prevents sending it by default on login/get user, but we explicitly select it in the controller
+    },
      resetPasswordToken: String,
     resetPasswordExpire: Date,
 });
